@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Audio Player")
+st.title("Sube aquí tu audio")
 # Create file upload component
 uploaded_file = st.file_uploader("Choose an audio file", type=["mp3", "wav"])
 
