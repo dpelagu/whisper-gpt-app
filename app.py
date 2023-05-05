@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("Hola, mundo")
 # Create file upload component
-uploaded_file = st.file_uploader("Choose an audio file", type=["mp3", "wav"])
+uploaded_file = st.file_uploader("Choose an audio file", type=["mp3", "wav", "opus", "m4a"])
 
 # Check if a file is uploaded
 if uploaded_file is not None:
